@@ -1,9 +1,8 @@
 {
-  "name": "test",
+  "name": "probability-estimator",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "start": "ts-node --esm index.ts",
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +11,11 @@
   "description": "",
   "dependencies": {
     "luxon": "^3.6.1",
+    "mathjs": "^14.5.2"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.6.2",
+    "ts-loader": "^9.5.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
